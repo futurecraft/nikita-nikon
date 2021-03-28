@@ -1,0 +1,7 @@
+petstore:
+  localhost_host: 'http://localhost:8080'
+  swagger_host: 'https://petstore3.swagger.io'
+
+  pet_api_path: '/api/v3/pet'
+  store_api_path: '/api/v3/store'
+  user_api_path: '/api/v3/user'

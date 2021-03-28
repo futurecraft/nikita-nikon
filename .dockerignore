@@ -1,0 +1,9 @@
+# ignore .git, .idea, etc
+.git
+.idea
+.ruby-version
+.dockerignore
+*.md
+Gemfile.lock
+Dockerfile
+
