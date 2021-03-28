@@ -22,8 +22,6 @@ First I wanted it to hit https://petstore3.swagger.io directly,
 but lots of endpoints there are broken.
 So, first you'll have to deploy the MS locally:
 
-`docker build -t swaggerapi/petstore3:unstable .`
-
 `docker pull swaggerapi/petstore3:unstable`
 
 `docker run  --name swaggerapi-petstore3 -d -p 8080:8080 swaggerapi/petstore3:unstable`
